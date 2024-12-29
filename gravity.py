@@ -25,7 +25,7 @@ def create_ball(space, position, radius=20, mass=1):
     space.add(body, shape)
     return shape
 
-def create_circular_ground(space, body, radius, num_segments=32, bouncy=11, opening_size=4):
+def create_circular_ground(space, body, radius, num_segments=32, bouncy=15, opening_size=4):
     segment_angle = 2 * math.pi / num_segments
     ground_shapes = []
 
